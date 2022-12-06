@@ -4,19 +4,13 @@ from os import path
 
 st.set_page_config(layout='wide')
 
-data_dir = path.join(path.curdir, '22_bonus', 'data')
+data_dir = path.join(path.curdir, 'data')
 
 df = pd.read_csv(path.join(data_dir,'data.csv'), sep=',')
 
 st.title('The Best Company')
 content = """
-It allowance prevailed enjoyment in it. Calling observe for who pressed raising his. 
-Can connection instrument astonished unaffected his motionless preference. 
-Announcing say boy precaution unaffected difficulty alteration him. 
-Above be would at so going heard. Engaged at village at am equally proceed. 
-Settle nay length almost ham direct extent. 
-Agreement for listening remainder get attention law acuteness day. 
-Now whatever surprise resolved elegance indulged own way outlived.
+This is a mock-up company page. All names and images were delivered by [udemy course](https://www.udemy.com/course/the-python-mega-course/).
 """
 st.write(content)
 st.header('Our team:')

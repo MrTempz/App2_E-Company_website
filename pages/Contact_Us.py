@@ -5,7 +5,7 @@ from send_email import send_email
 
 st.set_page_config(layout='wide')
 
-data_dir = path.join(path.curdir, '22_bonus', 'data')
+data_dir = path.join(path.curdir, 'data')
 
 df = pd.read_csv(path.join(data_dir,'topics.csv'), sep=',')
 
